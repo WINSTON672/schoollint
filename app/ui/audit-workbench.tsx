@@ -35,6 +35,7 @@ export function AuditWorkbench({ initialReport }: { initialReport: AuditReport }
   const selected = findings.find((finding) => finding.id === selectedId) ?? findings[0];
   const generated = new Intl.DateTimeFormat("en-US", {
     month: "short", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit",
+    timeZone: "UTC", timeZoneName: "short",
   }).format(new Date(initialReport.generatedAt));
 
   const setStatus = (status: ReviewStatus) => {
