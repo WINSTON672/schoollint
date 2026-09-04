@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "slug": "blair-academy",
+  "organization": "Blair Academy",
+  "startUrl": "https://www.blair.edu/",
+  "generatedAt": "2026-09-04T15:46:20.098Z",
+  "engine": "llama3.2:3b · local review",
+  "score": 94,
+  "stats": {
+    "pagesScanned": 20,
+    "documentsScanned": 0,
+    "linksChecked": 80,
+    "claimsCompared": 6,
+    "findings": 1
+  },
+  "findings": [
+    {
+      "id": "9f5661c22e",
+      "kind": "broken-link",
+      "severity": "medium",
+      "confidence": 0.99,
+      "title": "Linked page returns 404",
+      "explanation": "A visitor following this internal link does not reach a working page.",
+      "evidence": [
+        {
+          "url": "https://www.blair.edu/admission/why-blair",
+          "pageTitle": "Welcome To Blair - Prep Schools in NJ | Blair Academy",
+          "excerpt": "https://www.blair.edu/academics/chiang-elghanayan-center-for-innovation-and-collaboration"
+        }
+      ],
+      "status": "needs-review"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.blair.edu/",
+      "title": "Best Boarding High School in New Jersey | Blair Academy",
+      "fetchedAt": "2026-09-04T15:45:19.216Z",
+      "status": 200
+    },
+    {
+      "url": "https://www.blair.edu/admission/application-process",
+      "title": "Application Process - Private High School in New Jersey | Blair",
+      "fetchedAt": "2026-09-04T15:45:19.474Z",
+      "status": 200
+    },
+    {
+      "url": "https://www.blair.edu/about-blair/blair-values/seven-principles",
+      "title": "Seven Principles - Private High School in NJ | Blair",
+      "fetchedAt": "2026-09-04T15:45:19.722Z",
+      "status": 200
+    },
+    {
+      "url": "https://www.blair.edu/admission/why-blair",
+      "title": "Welcome To Blair - Prep Schools in NJ | Blair Academy",
+      "fetchedAt": "2026-09-04T15:45:19.984Z",
+      "status": 200
+    },
+    {
+      "url": "https://www.blair.edu/academics",
+      "title": "Top Private High School Academics in NJ | Blair Academy",
+      "fetchedAt": "2026-09-04T15:45:20.221Z",
+      "status": 200
+    },
+    {
+      "url": "https://www.blair.edu/the-arts",
+      "title": "Boarding School with Arts Program in New Jersey | Blair Academy",
+      "fetchedAt": "2026-09-04T15:45:20.505Z",
+      "status": 200
+    },
+    {
+      "url": "https://www.blair.edu/athletics",
+      "title": "Top Boarding School Athletics in NJ | Blair Athletics",
+      "fetchedAt": "2026-09-04T15:45:20.781Z",
+      "status": 200
+    },
+    {
+      "url": "https://www.blair.edu/admission/virtual-campus-tour",
+      "title": "Blair Academy Interactive Campus AnyMap",
+      "fetchedAt": "2026-09-04T15:45:21.142Z",
+      "status": 200
+    },
+    {
+      "url": "https://www.blair.edu/admission/visiting-blair",
+      "title": "Visiting Blair - Private Boarding & Day School in NJ | Blair",
+      "fetchedAt": "2026-09-04T15:45:21.377Z",
+      "status": 200
+    },
+    {
+      "url": "https://www.blair.edu/academics/our-faculty",
+      "title": "Faculty - Boarding & Day School in New Jersey | Blair Academy",
+      "fetchedAt": "2026-09-04T15:45:21.627Z",
+      "status": 200
+    },
+    {
+      "url": "https://www.blair.edu/admission/blair-at-a-glance",
+      "title": "Blair At A Glance - Boarding High Schools in NJ | Blair",
+      "fetchedAt": "2026-09-04T15:45:21.907Z",
+      "status": 200
+    },
+    {
+      "url": "https://www.blair.edu/about-blair/publications-news",
+      "title": "Publications & News - NJ Boarding High School | Blair",
+      "fetchedAt": "2026-09-04T15:45:22.156Z",
+      "status": 200
+    },
+    {
+      "url": "https://www.blair.edu/about-blair/publications-news/post/~board/news/post/celebrating-service-at-the-start-of-a-new-year",
+      "title": "Celebrating Service at the Start of a New Year | Post",
+      "fetchedAt": "2026-09-04T15:45:22.402Z",
+      "status": 200
+    },
+    {
+      "url": "https://www.blair.edu/about-blair/publications-news/post/~board/news/post/discover-blair-at-admission-fall-preview-26",
+      "title": "Discover Blair at Admission Fall Preview | Post",
+      "fetchedAt": "2026-09-04T15:45:22.639Z",
+      "status": 200
+    },
+    {
+      "url": "https://www.blair.edu/about-blair/publications-news/post/~board/news/post/welcome-new-faculty-staff-2026",
+      "title": "Welcome, New Faculty & Staff 2026 | Post",
+      "fetchedAt": "2026-09-04T15:45:22.880Z",
+      "status": 200
+    },
+    {
+      "url": "https://www.blair.edu/about-blair/publications-news/post/~board/news/post/a-second-life-for-mason-freeman-the-bowl",
+      "title": "A Second Life for Mason, Freeman & the Bowl | Post",
+      "fetchedAt": "2026-09-04T15:45:23.127Z",
+      "status": 200
+    },
+    {
+      "url": "https://www.blair.edu/about-blair/publications-news/post/~board/news/post/the-lasting-influence-legacy-of-a-jon-frere-hon-74",
+      "title": "The Lasting Influence & Legacy of A. Jon Frere, Hon. ’74 | Post",
+      "fetchedAt": "2026-09-04T15:45:23.380Z",
+      "status": 200
+    },
+    {
+      "url": "https://www.blair.edu/about-blair/publications-news/post/~board/news/post/david-winigrad-lights-up-the-romano-gallery",
+      "title": "David Winigrad Lights Up the Romano Gallery | Post",
+      "fetchedAt": "2026-09-04T15:45:23.657Z",
+      "status": 200
+    },
+    {
+      "url": "https://www.blair.edu/about-blair/publications-news/post/~board/news/post/order-textbooks-online-for-the-2026-2027-school-year",
+      "title": "Order Textbooks Online for the 2026-2027 School Year | Post",
+      "fetchedAt": "2026-09-04T15:45:23.900Z",
+      "status": 200
+    },
+    {
+      "url": "https://www.blair.edu/about-blair/publications-news/post/~board/news/post/blair-wrestlers-to-compete-in-world-championships",
+      "title": "Blair Wrestlers to Compete in World Championships | Post",
+      "fetchedAt": "2026-09-04T15:45:24.171Z",
+      "status": 200
+    }
+  ]
+}
